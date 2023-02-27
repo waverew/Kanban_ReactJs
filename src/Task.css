@@ -1,0 +1,13 @@
+.task-cont{
+    border: 2px solid lightgray;
+    padding: 1px;
+    margin: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    height: 5em;
+    width: 10em;
+    font-size: medium;
+}

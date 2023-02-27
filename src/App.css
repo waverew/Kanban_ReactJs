@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .App-header {
   background-color: #282c34;
@@ -20,13 +23,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+.main-cont{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 420px){
+  .main-cont{
+    flex-direction: column;
+  }
+}
+  
 
 @keyframes App-logo-spin {
   from {
